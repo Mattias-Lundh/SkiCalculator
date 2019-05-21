@@ -10,7 +10,12 @@ namespace SkiLengthCalculatorApi.Controllers
     [ApiController]
     public class CalculatorController : ControllerBase
     {
-        private ISkiCalculator calculator = new SkiCalculator();
+        public CalculatorController(ISkiCalculator calculator)
+        {
+            this.calculator = calculator;
+        }
+
+        private ISkiCalculator calculator;
 
         // GET api/calculator
         [HttpGet]
