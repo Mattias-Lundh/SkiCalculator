@@ -1,0 +1,14 @@
+C:\Users\matti\source\repos\SkiLengthCalculator\SkiLengthCalculatorApi\bin\Debug\netcoreapp2.1\SkiLengthCalculatorApi.deps.json
+C:\Users\matti\source\repos\SkiLengthCalculator\SkiLengthCalculatorApi\bin\Debug\netcoreapp2.1\SkiLengthCalculatorApi.runtimeconfig.json
+C:\Users\matti\source\repos\SkiLengthCalculator\SkiLengthCalculatorApi\bin\Debug\netcoreapp2.1\SkiLengthCalculatorApi.runtimeconfig.dev.json
+C:\Users\matti\source\repos\SkiLengthCalculator\SkiLengthCalculatorApi\bin\Debug\netcoreapp2.1\SkiLengthCalculatorApi.dll
+C:\Users\matti\source\repos\SkiLengthCalculator\SkiLengthCalculatorApi\bin\Debug\netcoreapp2.1\SkiLengthCalculatorApi.pdb
+C:\Users\matti\source\repos\SkiLengthCalculator\SkiLengthCalculatorApi\obj\Debug\netcoreapp2.1\SkiLengthCalculatorApi.csprojAssemblyReference.cache
+C:\Users\matti\source\repos\SkiLengthCalculator\SkiLengthCalculatorApi\obj\Debug\netcoreapp2.1\SkiLengthCalculatorApi.csproj.CoreCompileInputs.cache
+C:\Users\matti\source\repos\SkiLengthCalculator\SkiLengthCalculatorApi\obj\Debug\netcoreapp2.1\SkiLengthCalculatorApi.RazorAssemblyInfo.cache
+C:\Users\matti\source\repos\SkiLengthCalculator\SkiLengthCalculatorApi\obj\Debug\netcoreapp2.1\SkiLengthCalculatorApi.RazorAssemblyInfo.cs
+C:\Users\matti\source\repos\SkiLengthCalculator\SkiLengthCalculatorApi\obj\Debug\netcoreapp2.1\SkiLengthCalculatorApi.AssemblyInfoInputs.cache
+C:\Users\matti\source\repos\SkiLengthCalculator\SkiLengthCalculatorApi\obj\Debug\netcoreapp2.1\SkiLengthCalculatorApi.AssemblyInfo.cs
+C:\Users\matti\source\repos\SkiLengthCalculator\SkiLengthCalculatorApi\obj\Debug\netcoreapp2.1\SkiLengthCalculatorApi.RazorTargetAssemblyInfo.cache
+C:\Users\matti\source\repos\SkiLengthCalculator\SkiLengthCalculatorApi\obj\Debug\netcoreapp2.1\SkiLengthCalculatorApi.dll
+C:\Users\matti\source\repos\SkiLengthCalculator\SkiLengthCalculatorApi\obj\Debug\netcoreapp2.1\SkiLengthCalculatorApi.pdb
