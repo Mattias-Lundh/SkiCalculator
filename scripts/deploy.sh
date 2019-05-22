@@ -32,7 +32,7 @@ ARTIFACTS=$SCRIPT_DIR/../artifacts
 KUDU_SYNC_CMD=${KUDU_SYNC_CMD//\"}
 
 if [[ ! -n "$DEPLOYMENT_SOURCE" ]]; then
-  DEPLOYMENT_SOURCE=$SCRIPT_DIR/SkiLengthCalculator/ClientApp/src
+  DEPLOYMENT_SOURCE=$SCRIPT_DIR/build
 fi
 
 if [[ ! -n "$NEXT_MANIFEST_PATH" ]]; then
@@ -112,7 +112,7 @@ fi
 
 # 3. KuduSync
 if [[ "$IN_PLACE_DEPLOYMENT" -ne "1" ]]; then
-  "$KUDU_SYNC_CMD" -v 50 -f "$DEPLOYMENT_SOURCE/SkiLengthCalculator/ClientApp/src" -t "$DEPLOYMENT_TARGET" -n "$NEXT_MANIFEST_PATH" -p "$PREVIOUS_MANIFEST_PATH" -i ".git;.hg;.deployment;deploy.sh"
+  "$KUDU_SYNC_CMD" -v 50 -f "$DEPLOYMENT_SOURCE/build" -t "$DEPLOYMENT_TARGET" -n "$NEXT_MANIFEST_PATH" -p "$PREVIOUS_MANIFEST_PATH" -i ".git;.hg;.deployment;deploy.sh"
   cp "$DEPLOYMENT_SOURCE/web.config" "$DEPLOYMENT_TARGET/web.config"
   exitWithMessageOnError "Kudu Sync failed"
 fi
