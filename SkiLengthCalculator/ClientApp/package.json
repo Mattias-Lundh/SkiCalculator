@@ -13,6 +13,8 @@
     "rimraf": "^2.6.2"
   },
   "scripts": {
+    "postinstall": "npm run build",
+    "dev": "react-scripts start",
     "start": "rimraf ./build && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
