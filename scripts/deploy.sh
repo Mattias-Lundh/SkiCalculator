@@ -32,7 +32,7 @@ ARTIFACTS=$SCRIPT_DIR/../artifacts
 KUDU_SYNC_CMD=${KUDU_SYNC_CMD//\"}
 
 if [[ ! -n "$DEPLOYMENT_SOURCE" ]]; then
-  DEPLOYMENT_SOURCE=$SCRIPT_DIR/build
+  DEPLOYMENT_SOURCE=$SCRIPT_DIR/SkiLengthCalculator/ClientApp/src
 fi
 
 if [[ ! -n "$NEXT_MANIFEST_PATH" ]]; then
