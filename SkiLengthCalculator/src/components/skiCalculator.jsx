@@ -37,7 +37,6 @@ class SkiCalculator extends Component {
         return response.json();
       })
       .then(data => {
-        console.log(data);
         const result = "Recomended Size: " + data.Value;
         this.setState({ calculationResult: result });
       })

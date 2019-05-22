@@ -1,12 +1,11 @@
 import "bootstrap/dist/css/bootstrap.css";
-import "bootstrap/dist/css/bootstrap-theme.css";
 import "./index.css";
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 import registerServiceWorker from "./registerServiceWorker";
 
-window.backendURLBase = "https://localhost:44364/";
+window.backendURLBase = "https://skicalculatorapi.azurewebsites.net/";
 window.backendURLApiDirectory = "api/calculator";
 
 const rootElement = document.getElementById("root");
